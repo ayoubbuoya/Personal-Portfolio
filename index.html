@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buoya Portfolio</title>
+    <!-- Font Awseome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Css File Link    -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header Section Start  -->
+    <header>
+        <div class="user">
+            <img src="images/user-pic.jpg" />
+            <h3 class="name">Ayoub Amer</h3>
+            <p class="job">Front End Developer</p>
+        </div>
+        <!-- Side Navbar Begin  -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Side Navbar End  -->
+    </header>
+    <!-- Header Section End  -->
+    <div id="menu" class="fas fa-bars"></div>
+    <!-- Home Section Begin  -->
+    <section class="home" id="home">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Ayoub Amer</span></h1>
+        <p>
+            Learned html css javascript python.Trying To be Expert in Web developpment && To Learn machine learning and Merge it With my sites.
+        </p>
+        <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+    <!-- Home Section End  -->
+    <!-- About Section Begin  -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about </span>me</h1>
+        <div class="row">
+            <div class="info">
+                <h3>name : <span>ayoub amer</span></h3>
+                <h3>age : <span> 19 </span></h3>
+                <h3>job : <span>front end developer</span></h3>
+                <h3>language : <span>arabic</span></h3>
+                <a href="cv.html" target="_blank"><button class="btn">
+              download cv <i class="fas fa-download"></i></button
+          ></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>1+</span>
+                    <h3>years of experience</h3>
+                </div>
+                <div class="box">
+                    <span>5+</span>
+                    <h3>project completed</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End  -->
+    <!-- Education Section Start  -->
+    <section class="education" id="education">
+        <h1 class="heading head-edu">my <span>education</span></h1>
+        <div class="container">
+            <h3>niveau : <span> 1ere anné </span></h3>
+            <h3>specialité : <span> science info</span></h3>
+            <h3>faculté : <span> isi kef</span></h3>
+        </div>
+    </section>
+    <!-- Education Section End  -->
+    <!-- Portfolio Section Begin  -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">my <span>portfolio</span></h1>
+    </section>
+    <!-- Portfolio Section End  -->
+    <!-- Contact Section Begin  -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact </span>me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title"><span>CONTACT </span> INFO <span> : </span></h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>ayoubamerrr290@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>+216-23524714</h3>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/ayoubamerrr290@gmail.com" method="POST">
+                <input type="text" name="name" id="name" placeholder="name" class="box" required/>
+                <input type="email" name="email" id="email" placeholder="email" class="box" required/>
+                <input type="text" name="subject" id="subject" placeholder="subject" class="box" required/>
+                <textarea name="message" id="msg" cols="30" rows="10" class="box msg" placeholder="message" required></textarea>
+                <input type="hidden" name="_captcha" value="false" />
+                <button type=" submit ">
+            send <i class="fas fa-paper-plane"></i>
+          </button> <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End  -->
+    <!-- Scroll Top Button -->
+    <!-- <a href="#home " class="top ">
+      <img src=" ">
+    </a> -->
+    <!-- JQUERY  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+    <!-- jS fILE  -->
+    <script src="script.js "></script>
+</body>
+
+</html>
